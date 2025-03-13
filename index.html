@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho sobre Redes Neurais, Computação Quântica e IBM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Trabalho sobre Redes Neurais, Computação Quântica e IBM</h1>
+        
+        <div class="button-container">
+            <div class="column">
+                <div class="section">
+                    <h2>Redes Neurais e Inteligência Artificial</h2>
+                    <img src="https://d2yghbees9788u.cloudfront.net/avozdaindustria/2019/08/redes_-neurais_-artificiais_a_voz_da_industria--768x393.jpg" alt="Ilustração de Redes Neurais" class="column-image"> <!-- Nova Imagem de Redes Neurais -->
+                    <img src="https://cdn.pixabay.com/photo/2018/01/30/20/26/artificial-intelligence-1966448_1280.png" alt="Ilustração de Redes Neurais" class="column-image"> <!-- Imagem de Redes Neurais -->
+                    <p>As redes neurais são um modelo computacional inspirado no funcionamento do cérebro humano. Elas são compostas por unidades chamadas neurônios, organizados em camadas. As redes neurais têm a capacidade de aprender a partir de dados, ajustando as suas conexões internas (pesos) para melhorar a precisão das previsões.</p>
+                    
+                    <h3>Estrutura e Funcionamento das Redes Neurais</h3>
+                    <p>Uma rede neural é composta por três tipos principais de camadas:</p>
+                    <ul>
+                        <li><strong>Camada de Entrada:</strong> Recebe os dados de entrada.</li>
+                        <li><strong>Camadas Ocultas:</strong> Processam as informações através de funções de ativação.</li>
+                        <li><strong>Camada de Saída:</strong> Fornece o resultado final da rede.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="section">
+                    <h2>Computação Quântica</h2>
+                    <!-- Imagem de Computação Quântica removida -->
+                    <p>A computação quântica é um campo da ciência da computação que explora o uso de qubits, que são unidades de informação quântica. Ao contrário dos bits clássicos, que podem ser 0 ou 1, os qubits podem existir em múltiplos estados ao mesmo tempo, permitindo que os computadores quânticos realizem cálculos complexos de forma muito mais eficiente.</p>
+                    
+                    <h3>Princípios da Computação Quântica</h3>
+                    <p>Os princípios da mecânica quântica, como superposição e entrelaçamento, são fundamentais para a computação quântica:</p>
+                    <ul>
+                        <li><strong>Superposição:</strong> Permite que um qubit represente simultaneamente 0 e 1, aumentando exponencialmente a capacidade de processamento.</li>
+                        <li><strong>Entrelaçamento:</strong> Cria uma conexão entre qubits, permitindo que a informação seja compartilhada instantaneamente entre eles, independentemente da distância.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="section">
+                    <h2>IBM (International Business Machines Corporation)</h2>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1200px-IBM_logo.svg.png" alt="Logotipo da IBM" class="column-image"> <!-- Imagem da IBM -->
+                    <p>A IBM, ou International Business Machines Corporation, é uma das maiores empresas de tecnologia do mundo, com uma história rica que remonta a 1911. A empresa é conhecida por suas inovações em hardware e software, incluindo computadores mainframe, inteligência artificial e computação quântica.</p>
+                    
+                    <h3>Inovações e Produtos</h3>
+                    <p>A IBM é conhecida por suas inovações em hardware e software, incluindo:</p>
+                    <ul>
+                        <li><strong>Computadores Mainframe:</strong> A IBM foi pioneira no desenvolvimento de computadores mainframe, que são utilizados por grandes empresas para processamento de dados em larga escala.</li>
+                        <li><strong>Inteligência Artificial:</strong> A IBM desenvolveu o Watson, um sistema de inteligência artificial que ganhou notoriedade ao vencer o programa de quiz "Jeopardy!" em 2011.</li>
+                        <li><strong>Computação Quântica:</strong> A IBM é uma das líderes em pesquisa e desenvolvimento de computação quântica, oferecendo acesso a computadores quânticos através da plataforma IBM Quantum Experience.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2>Conclusão</h2>
+        <p>As redes neurais, a computação quântica e a IBM são componentes essenciais do futuro da tecnologia. Compreender como funcionam e as suas aplicações é fundamental para aproveitar as oportunidades que oferecem e para enfrentar os desafios do futuro.</p>
+
+        <div class="watermark">
+            <p>José Carlos Gomes</p> <!-- Nome como marca d'água -->
+        </div>
+    </div>
+
+    <script>
+        function toggleSection(sectionId) {
+            const content = document.querySelectorAll('.content');
+            content.forEach(item => {
+                if (item.id === sectionId) {
+                    item.classList.toggle('hidden'); // Mostra ou esconde o conteúdo do botão clicado
+                }
+                // Não esconde outros conteúdos, permitindo que vários botões sejam abertos ao mesmo tempo
+            });
+        }
+    </script>
+</body>
+</html>

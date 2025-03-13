@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff; /* Cor do texto em branco para maior contraste */
+    background-image: url('https://itforum.com.br/wp-content/uploads/2024/10/OFICIAL-Dimensao-Wordpress-2024-10-09T120713.957.jpg.webp'); /* Adiciona a imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    height: auto; /* Ajusta a altura do corpo */
+    display: flex; /* Usado para centralizar o conteúdo */
+    flex-direction: column; /* Alinha o conteúdo verticalmente */
+    justify-content: flex-start; /* Alinha o conteúdo no topo */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.container {
+    max-width: 1200px; /* Largura máxima para acomodar a linha horizontal */
+    padding: 20px; /* Espaçamento interno */
+    background-color: rgba(0, 0, 0, 0.7); /* Cor de fundo do container com transparência para maior contraste */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para dar efeito de profundidade */
+}
+
+.button-container {
+    display: flex; /* Exibe os botões em linha horizontal */
+    justify-content: space-between; /* Espaçamento entre as colunas */
+    flex-wrap: wrap; /* Permite que os botões se movam para a linha seguinte */
+    margin-bottom: 40px; /* Margem inferior para espaçamento */
+}
+
+.column {
+    flex: 1; /* Cada coluna ocupa espaço igual */
+    padding: 20px; /* Espaçamento interno */
+    margin: 0 10px; /* Margem lateral invisível para permitir a visualização da imagem de fundo */
+    background-color: transparent; /* Fundo transparente para as colunas */
+    min-width: 300px; /* Largura mínima para as colunas */
+}
+
+.section {
+    margin-bottom: 20px; /* Espaçamento entre as seções */
+}
+
+.column-image {
+    width: 120px; /* Aumenta a largura das imagens dos tópicos */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Bordas arredondadas para as imagens */
+    margin-bottom: 15px; /* Espaçamento abaixo da imagem */
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em; /* Aumenta o tamanho do título principal */
+    margin-bottom: 20px;
+    color: #ffcc00; /* Cor do título principal em amarelo brilhante */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para aumentar o brilho */
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 2em; /* Aumenta o tamanho dos subtítulos */
+    color: #ffcc00; /* Cor dos subtítulos em amarelo brilhante */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra para aumentar o brilho */
+}
+
+h3 {
+    margin-top: 15px;
+    font-size: 1.5em; /* Aumenta o tamanho dos subtítulos menores */
+    color: #ffcc00; /* Cor dos subtítulos menores em amarelo brilhante */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra para aumentar o brilho */
+}
+
+p, ul {
+    margin: 0; /* Remove todas as margens */
+    font-size: 1.2em; /* Aumenta o tamanho do texto dos parágrafos */
+    color: #ffffff; /* Cor do texto em branco para maior contraste */
+}
+
+ul {
+    padding-left: 20px; /* Indentação para listas */
+}
+
+.watermark {
+    text-align: center; /* Centraliza o texto */
+    font-size: 0.8em; /* Tamanho pequeno para a marca d'água */
+    color: rgba(255, 255, 255, 0.5); /* Cor branca com transparência */
+    position: relative; /* Permite posicionar a marca d'água */
+    margin-top: 20px; /* Espaçamento acima da marca d'água */
+    margin-bottom: 10px; /* Espaçamento abaixo da marca d'água */
+    bottom: 0; /* Posiciona a marca d'água na parte inferior */
+}
+
+.hidden {
+    display: none; /* Esconde o conteúdo */
+}
